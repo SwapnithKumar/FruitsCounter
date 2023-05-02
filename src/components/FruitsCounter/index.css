@@ -1,0 +1,79 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffd569;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  min-height: 95vh;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.heading {
+  color: #000000;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+
+.eat-count {
+  color: #ffd569;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fruit {
+  width: 200px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-container {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  .sub-container {
+    margin: 10px;
+    min-height: 80vh;
+    min-width: 80vw;
+  }
+  .fruit {
+    width: 260px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+  }
+}
